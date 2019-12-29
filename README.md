@@ -42,7 +42,7 @@ How to set up:
 
 4) Start the project
 
-  ./mystart.sh
+   ./mystart.sh
    
 
 # 2 - useState hook
@@ -64,7 +64,7 @@ How to set up:
 
 4) Start the project
 
-  ./mystart.sh
+   ./mystart.sh
    
    
 # 3 - useEffect hook
@@ -86,7 +86,7 @@ How to set up:
 
 4) Start the project
 
-  ./mystart.sh
+   ./mystart.sh
 
 # 4 - useContext hook
 useContext to toggle between lighter and darker themes via clicking on top left blinking button. 
@@ -107,7 +107,7 @@ How to set up:
 
 4) Start the project
 
-  ./mystart.sh
+   ./mystart.sh
    
    
 # 5 - Grid
@@ -137,7 +137,7 @@ How to set up:
    
 6) Start the project
 
-  ./mystart.sh
+   ./mystart.sh
    
 7) To see how USEFUL is faker.js, replace true with false in the following lines in BirdGrid.js:
 
@@ -175,4 +175,4 @@ How to set up:
    
 6) Start the project
 
-  ./mystart.sh
+   ./mystart.sh
