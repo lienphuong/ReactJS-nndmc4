@@ -2,15 +2,26 @@
 
 This folder contains 6 simple examples using different ReactJS techniques.
 
-I am using yarn instead of npm, but if it does not work for you, please use npm instead.
-
 The first 4 examples are very much the same so that it's easier to understand the specific technique. Note that you can use the same project for these 4.
 
-The 5th example is a simple grid. You need to see it for yourselves to appreciate it :)
+The 5th example is a simple grid. You'll probably appreciate how simple it can be :)
 
 The last example is about drag and drop. We will be needing this for different projects, so this maybe a good starting point.
 
-Note: currently the pictures are on https://nndmc4.clinicomp.com/Images. If you'd prefer working locally, please download the pictures and correct the path in src/BirdInit.js or src/createRowData.js so the pictures can be correctly located.
+Note: 
+- Currently the pictures are on https://nndmc4.clinicomp.com/Images. If you'd prefer working locally, please download the pictures and correct the path in src/BirdInit.js or src/createRowData.js so the pictures can be correctly located.
+
+- Start script from Peng: mystart.sh
+   #!/bin/bash
+
+   export PORT=3333
+   
+   export BROWSER=none
+   
+   export SKIP_PREFLIGHT_CHECK=true
+
+   npm start
+
 
 # 1 - ReactJS w/o hook
 Use class as a regular way of creating ReactJS app.
@@ -29,9 +40,10 @@ How to set up:
 
    cd my-app
 
-4) Start the project (note that after this step, you will see default page)
+4) Start the project
 
-   yarn start
+  ./mystart.sh
+   
 
 # 2 - useState hook
 useState to manage state.
@@ -50,9 +62,10 @@ How to set up:
 
    cd my-usestate
 
-4) Start the project (note that after this step, you will see default page)
+4) Start the project
 
-   yarn start
+  ./mystart.sh
+   
    
 # 3 - useEffect hook
 useEffect to fetch data.
@@ -71,9 +84,9 @@ How to set up:
 
    cd my-useeffect
 
-4) Start the project (note that after this step, you will see default page)
+4) Start the project
 
-   yarn start
+  ./mystart.sh
 
 # 4 - useContext hook
 useContext to toggle between lighter and darker themes via clicking on top left blinking button. 
@@ -92,9 +105,9 @@ How to set up:
 
    cd my-usecontext
 
-4) Start the project (note that after this step, you will see default page)
+4) Start the project
 
-   yarn start
+  ./mystart.sh
    
    
 # 5 - Grid
@@ -114,17 +127,17 @@ How to set up:
 
    cd my-grid
 
-4) Remove yarn.lock because we will be copying package.json from the package and will need to install again:
+4) Remove package-lock.json because we will be copying package.json from the package and will need to install again:
 
-   rm yarn.lock
+   rm package-lock.json
    
 5) Install dependencies listed in package.json:
 
-   yarn install
+   npm install
    
 6) Start the project
 
-   yarn start
+  ./mystart.sh
    
 7) To see how USEFUL is faker.js, replace true with false in the following lines in BirdGrid.js:
 
@@ -152,14 +165,14 @@ How to set up:
 
    cd my-dnd
    
-4) Remove yarn.lock because we will be copying package.json from the package and will need to install again:
+4) Remove package-lock.json because we will be copying package.json from the package and will need to install again:
 
-   rm yarn.lock
+   rm package-lock.json
    
 5) Install dependencies listed in package.json:
 
-   yarn install
+   npm install
    
 6) Start the project
 
-   yarn start
+  ./mystart.sh
