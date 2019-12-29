@@ -1,0 +1,47 @@
+.Bird {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.Bird-img {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+
+.Bird-list {
+    width: 200px;
+}
+
+.Bird-dark-theme {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 1000px;
+    background: black;
+    color: white;
+}
+
+.Bird-light-theme {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 1000px;
+    background: white;
+    color: black;
+}
+
+.Bird-button {
+    font-size: 20px;
+    animation:blinkingText 1.5s infinite;
+}
+
+@keyframes blinkingText {
+    0%{color: #000;}
+    49%{color: transparent;}
+    50%{color: transparent;}
+    99%{color:transparent;}
+    100%{color: #000;}
+}
+
