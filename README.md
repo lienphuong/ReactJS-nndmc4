@@ -2,11 +2,11 @@
 
 This folder contains 6 simple examples using different ReactJS techniques.
 
-The first 4 examples are very much the same so that it's easier to understand the specific technique. Note that you can use the same project for these 4.
+- The first 4 examples are very much the same so that it's easier to understand the specific technique. Note that you can use the same project for these 4.
 
-The 5th example is a simple grid. You'll probably appreciate how simple it can be :)
+- The 5th example is a simple grid. You'll probably appreciate how simple it can be :)
 
-The last example is about drag and drop. We will be needing this for different projects, so this maybe a good starting point.
+- The last example is about drag and drop. We will be needing this for different projects, so this maybe a good starting point.
 
 Note: 
 - Currently the pictures are on https://nndmc4.clinicomp.com/Images. If you'd prefer working locally, please download the pictures and correct the path in src/BirdInit.js or src/createRowData.js so the pictures can be correctly located.
