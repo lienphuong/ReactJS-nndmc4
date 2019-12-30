@@ -1,7 +1,6 @@
 // code adopted from https://github.com/STRML/react-grid-layout
 import React from 'react'
 import GridLayout from 'react-grid-layout'
-import ReactDataGrid from 'react-data-grid';
 import './styles.css'
 import './resize-styles.css'
 
