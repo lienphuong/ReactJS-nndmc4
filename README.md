@@ -12,6 +12,7 @@ Note:
 - Currently the pictures are on https://nndmc4.clinicomp.com/Images. If you'd prefer working locally, please download the pictures and correct the path in src/BirdInit.js or src/createRowData.js so the pictures can be correctly located.
 
 - Start script from Peng: mystart.sh
+   
    #!/bin/bash
 
    export PORT=3333
