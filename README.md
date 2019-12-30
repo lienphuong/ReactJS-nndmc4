@@ -151,7 +151,7 @@ In this example, there are 3 blocks a, b, and c:
 - b is movable and resizable but has min/max widths. 
 - c is movable and resizable with no size limitation.
 
-This directory (DnD) contains files that are needed to create a simple grid, but it is not complete and initial set up is required.
+This directory (DnD) contains files that are needed to create a simple drag and drop, but it is not complete and initial set up is required.
 
 How to set up:
 1) Run the following command to create a new ReactJS project name my-dnd:
