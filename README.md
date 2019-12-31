@@ -134,7 +134,7 @@ How to set up:
    
 5) Install dependencies listed in package.json:
 
-   npm install
+   yarn install
    
 6) Start the project
 
@@ -172,7 +172,7 @@ How to set up:
    
 5) Install dependencies listed in package.json:
 
-   npm install
+   yarn install
    
 6) Start the project
 
