@@ -21,19 +21,19 @@ Note:
    
    export SKIP_PREFLIGHT_CHECK=true
 
-   npm start
-
+   yarn start
+   
 
 # 1 - ReactJS w/o hook
 Use class as a regular way of creating ReactJS app.
 This directory (Class) contains files that are needed to make use of context, but it is not complete and initial set up is required.
 
 How to set up:
-1) Run the following command to create a new ReactJS project name my-usestate:
+1) Run the following command to create a new ReactJS project name my-app:
 
    npx create-react-app my-app
 
-2) Copy code from Grid to my-app (assuming that ReactJS-Examples and my-usestate are in the same level)
+2) Copy code from Grid to my-app (assuming that ReactJS-Examples and my-app are in the same level)
 
    cp -r ReactJS-Examples/State/* my-app/.
    
@@ -128,9 +128,9 @@ How to set up:
 
    cd my-grid
 
-4) Remove package-lock.json because we will be copying package.json from the package and will need to install again:
+4) Remove yarn.lock because we will be copying package.json from the package and will need to install again:
 
-   rm package-lock.json
+   rm yarn.lock
    
 5) Install dependencies listed in package.json:
 
@@ -166,9 +166,9 @@ How to set up:
 
    cd my-dnd
    
-4) Remove package-lock.json because we will be copying package.json from the package and will need to install again:
+4) Remove yarn.lock because we will be copying package.json from the package and will need to install again:
 
-   rm package-lock.json
+   rm yarn.lock
    
 5) Install dependencies listed in package.json:
 
