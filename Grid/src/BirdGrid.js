@@ -1,3 +1,4 @@
+// code adopted from https://adazzle.github.io/react-data-grid/
 import React from 'react'
 import ReactDataGrid from 'react-data-grid'
 import {createRowData, createBirdRowData} from "./createRowData"
