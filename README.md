@@ -38,37 +38,44 @@ Note:
 5) Start the project
    ./mystart.sh
 
-# 1 - ReactJS w/o hook (ReactJS-nndmc4/Class)
+# 1 - ReactJS w/o hook 
+Code: ReactJS-nndmc4/Class
 Use class as a regular way of creating ReactJS app.
 
 
-# 2 - useState hook (ReactJS-nndmc4/State)
+# 2 - useState hook
+Code: ReactJS-nndmc4/State
 useState to manage state.
 
    
-# 3 - useEffect hook (ReactJS-nndmc4/Effect)
+# 3 - useEffect hook 
+Code: ReactJS-nndmc4/Effect
 useEffect to fetch data.
 
 
-# 4 - useContext hook (ReactJS-nndmc4/Context)
+# 4 - useContext hook 
+Code: ReactJS-nndmc4/Context
 useContext to toggle between lighter and darker themes via clicking on top left blinking button. 
   
    
-# 5 - Grid (ReactJS-nndmc4/Grid)
+# 5 - Grid 
+Code: ReactJS-nndmc4/Grid
 Custom row grid rendering
    
 Note: To see how USEFUL is faker.js, replace true with false in the following lines in BirdGrid.js:
 const isBirdApp = true
 
 
-# 6 - Drag and Drop (ReactJS-nndmc4/DnD)
+# 6 - Drag and Drop 
+Code: ReactJS-nndmc4/DnD
 In this example, there are 3 blocks a, b, and c:
 - a is neither movable nor resizable. 
 - b is movable and resizable but has min/max widths. 
 - c is movable and resizable with no size limitation.
 
 
-# 7 - Tree (ReactJS-nndmc4/Tree)
+# 7 - Tree 
+Code: ReactJS-nndmc4/Tree
 I adopted this example online (link below) and modified a little.
 https://codesandbox.io/embed/rrw7mrknyp
 
